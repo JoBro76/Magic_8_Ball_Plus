@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball Plus</title>
+    <script src="script.js"></script>
+    <style src="script.js"></style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="path/to/Magic8Ball3.jpg" type="image/png">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img id="logoPic" src="path/to/Magic8Ball3.jpg" alt="logo">
+        </div>
+        <div class="title">
+            <h1>Magic 8 Ball P L U S</h1>
+        </div>
+
+    </header>
+
+
+
+
+
+
+    <h1> Magic 8 Ball Plus</h1>
+    <p> Ask a question and click the button to get an answer </p>
+    
+    <div style="display: flex;">
+        <form id="myform" style="flex: 1;">
+            <div style ="display: flex;">
+                <div class="side1">
+                    <textarea id="text" name="text" rows="3" col="30" placeholder="Type Here"></textarea>
+                </div>
+            </div>
+            <br>
+            <button type="reset" onclick="activate()">Submit</button>
+            <br>
+            <br>
+            <p id="yq">Your question: </p>
+            <p id="ball"> </p>
+        </form>
+    
+        <div style="flex: 1; padding-right: 80px;" class="side2" id="instructions">
+            <p>You can ask the Magic 8 Ball the following things:
+                <br>
+                <br>
+                -When you or someone else will die
+                <br>
+                <br>
+                -How you will die
+                <br>
+                <br>
+                -Whom you will marry
+                <br>
+                <br>
+                -How long something will take (include the phrase "how long" in your question)
+                <br>
+                <br>
+                -When your father will come back
+                <br>
+                <br>
+                -How the Magic 8 Ball is doing
+                <br>
+                <br>
+                -If the Magic 8 Ball hates you (ask "Do you hate me?"). I'm not sure why you'd want to know this though.
+                <br>
+                <br>
+                -Everything else will be treated as a yes or no question
+                <br>
+                <br>
+                *There are some other things you can say to The Magic 8 Ball that you'll just have to find yourself hehehe*
+            </p>
+        </div>            
+    </div>
+
+
+</body>
+</html>

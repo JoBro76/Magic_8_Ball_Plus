@@ -118,3 +118,8 @@ button[type="reset"]:focus {
     padding-right: 20px;
     box-sizing: border-box;
 }
+
+.instructions, .myform {
+    display: flex;
+}
+

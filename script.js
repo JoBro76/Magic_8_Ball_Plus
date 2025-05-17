@@ -928,6 +928,365 @@ function HRU(){
 }
 
 
+function quote(){
+    const result = [
+        "Look how far you've come",
+        "Don't hold onto things that require a tight grip",
+        "There are things in life that you can't control, and aren't supposed to",
+        "Say yes, then figure it out",
+        "You make it look easy. The fact is it's really hard and you do it anyway",
+        "Putting yourself fully into what you do is a form of love",
+        "Oops! it would appear your card has declined\n\nYou're worthless", //B
+        "Be kind to other human beings",
+        "Whatever you can do, you must do",
+        "It's not your job to fix people",
+        "There are no rules",
+        "The destination is not what matters. It's all about the friends you make along the way",
+        "If you want to grow, you have to be willing to learn",
+        "Racism is bad. You should know that by now",
+        "I'm tired",
+        "The fortunes of a fortune cookie don't actually apply unless you eat the cookie.\nThat's right, I see you reading the fortunes and throwing out the rest.",
+        "Let go and let the universe do its thing",
+        "Lean in, let go",
+        "Everytime I look in the mirror I see someone I hate.\n\nThen I realize it's a not a mirror, it's a window", //B
+        "Just do it",
+        "Trust the wait. Enjoy not knowing",
+        "Everybody sucks at something",
+        "People who say they'll give 110% don't understand how percentages work", //B
+        "The best things in life are actually pretty expensive", //B
+        "Literally no one cares", //B
+        "It doesn't matter how slow you go as long as you do not stop",
+        "Be yourself. Everyone else is already taken",
+        "Life is hard but your thick skull is harder", 
+        "Life is short but you're shorter",
+        "Life is short but you're attention span is shorter",
+        "Set yourself up to experience what you love",
+        "Turn your life upside down. On purpose",
+        "It will be okay",
+        "Things will get better",
+        "It will probably get worse", //B
+        "It's a beautiful day to shut up", //B
+        "You are what you eat. I don't know what that means exactly, but...\nThere you go",
+        "Whatever you do, give 100%\n\nunless you're donating blood",
+        '"When someone says something dumb, give them a good smack on the bum" -a wise man',
+        "You are beautiful...\n\n...compared to a goldfish. Life is all about perspective", //B
+        '"When life gives you lemons, don\'t make lemonade" -Cave Johnson',
+        "The world is your sandbox",
+        "If you can't decide between two things, do both",
+        "With great power comes great responsibility"
+        ];
+    let i = Math.floor(Math.random() * result.length);
+    let r = result[i];
+    return "\n\n" + r;
+    //document.getElementById("fortune").innerHTML = r;
+}
+
+
+
+
+function fortune1(){
+    const result = [
+        "You will win a boxing match against a sock monkey",
+        "You will find a cake on your front steps",
+        "You will become an internet meme",
+        "You will die",
+        "All your dreams will come true",
+        "You will buy some new pants",
+        "You will win a lottery for $5!",
+        "You will win a lottery for $5,000,000!",
+        "Someone in your life will die... And all their money will go to you :D!",
+        "You will fall down a mountain and break your leg, fracture 31 ribs, puncture 2 1/2 lungs, get an arm chopped clean off, oh- and freaking die- but your life insurance will cover all the medical expenses. So great, right XD ?",
+        "You're gonna be the hero nobody asked for and nobody needed",
+        "You will discover buried treasure on your property",
+        "You will become a karate master",
+        "You will become a karate kung fu tae kwon do krav magaw jujitsu boxing wrestling master",
+        "You will become a super hero",
+        "You will become a super hero with the ability to blow bubblegum through your belly button",
+        "Someone will give you a 20 dollar bill out of the goodness of their heart",
+        "Raising Cane's will offer a new $5 deluxe deal to their menu",
+        "You will become homeless... and people will give you money on the street for free!",
+        "You will buy super cool shoes and show them off to your nonexistant friends",
+        "You will buy super cool shoes and show them off to your friends",
+        "bean",
+        "Your fat ahh will win a hotdog eating contest",
+        "You will be the founder of a successful business",
+        "You will win a gold medal at the olympics",
+        "You will write a banger of a song",
+        "Your bro will get rich and share their wealth with you",
+        "You will live a long and happy life",
+        "You will get a Victory Royale in Fortnite",
+        "You will open a restauraunt",
+        "You will be featured on a Simpsons episode",
+        "You will be a Fortnite skin",
+        "You make a ton of friends",
+        "Your crush will like you back",
+        "You will be the next Einstein",
+        "You will be a pro basketball player and make LeBron jealous",
+        "Your girlfriend/boyfriend will leave you- trust me, thats a good thing",
+        "Your father might actually come back\nJK!",
+        "You ARE the pirate king",
+        "Scientists will study your vast intellect",
+        "Nah buddy you get no fortunes. Your life sucks",
+        "The weird kid will finally leave you alone!",
+        "The weird kid will make you a little mechanical pencil launcher, which is... cool, I guess.",
+        "Your life will be cupcakes and rainbows and unicorns and stuff XD",
+        "Cabbage. That is your fortune. hehe",
+        "You will develope the random ability to hoolahoop with fifteen rocks and a cherry in your mouth",
+        "You will start a new tiktok trend",
+        "You will be president of the United States",
+        "You will overthrow the royal family of England and be the new dictator",
+        "You will invent a tyoe of gum that makes it impossible to tell if it's been in somebody else's mouth or not",
+        "If your name is Mckenzie then have a great day. If not, then BAD DAY",
+        "A beautiful, smart, and loving person will be coming into your life",
+        "A funny coincidence will make your day",
+        "A fresh start will put you on your way",
+        "A golden egg of opportunity falls into your lap this month",
+        "The fortunes of a fortune cookie don't actually apply unless you eat the cookie.\nThat's right, I see you reading the fortunes and throwing out the rest.",
+        "A lifetime of happiness lies ahead of you",
+        "A light heart carries you through all the hard times",
+        "A new outlook brightens your image and brings new friends",
+        "A new perspective will come with the new year",
+        "A pleasant surprise is waiting for you",
+        "A truly rich life contains love and art in abundance",
+        "All the effort you are making will ultimately pay off",
+        "All the troubles you have will pass away very quickly",
+        "All will go well with your new project",
+        "You will fall for Makenzie",
+        "If you put up with small annoyances, you will gain great results"
+        
+        ]
+    let i = Math.floor(Math.random() * result.length);
+    let r = result[i];
+    return "\n\n" + r;
+}
+
+
+
+function fortune2(){
+    const result = [
+        "Subject will win a boxing match against a sock monkey",
+        "Subject will find a cake on their front steps",
+        "Subject will become an internet meme",
+        "Subject will die",
+        "All of Subject's dreams will come true",
+        "Subject will buy some new pants",
+        "Subject will win a lottery for $5!",
+        "Subject will win a lottery for $5,000,000!",
+        "Someone in Subject's life will die... And all their money will go to Subject :D!",
+        "Subject will fall down a mountain and break their leg, fracture 31 ribs, puncture 2 1/2 lungs, get an arm chopped clean off, oh- and freaking die- but their life insurance will cover all the medical expenses. So great, right XD ?",
+        "Subject is gonna be the hero nobody asked for and nobody needed",
+        "Subject will discover buried treasure on their property",
+        "Subject will become a karate master",
+        "Subject will become a karate kung fu tae kwon do krav magaw jujitsu boxing wrestling master",
+        "Subject will become a super hero",
+        "Subject will become a super hero with the useless ability to blow bubblegum through their belly button",
+        "Someone will give Subject a 20 dollar bill out of the goodness of their heart",
+        "Raising Cane's will offer a new $5 deluxe deal to their menu",
+        "Subject will become homeless... and people will give them money on the street for free!",
+        "Subject will buy super cool shoes and show them off to their nonexistant friends",
+        "Subject will buy super cool shoes and show them off to their friends",
+        "bean",
+        "Subject's fat ahh will win a hotdog eating contest",
+        "Subject will be the founder of a successful business",
+        "Subject will win a gold medal at the olympics",
+        "Subject will write a banger of a song",
+        "Their bro will get rich and share their wealth with them",
+        "Subject will live a long and happy life",
+        "Subject will get a Victory Royale in Fortnite",
+        "Subject will open a restauraunt",
+        "Subject will be featured on a Simpsons episode",
+        "Subject will be a Fortnite skin",
+        "Subject will make a ton of friends",
+        "Subject's crush will like them back",
+        "Subject will be the next Einstein",
+        "Subject will be a pro basketball player and make LeBron jealous",
+        "Subject's girlfriend/boyfriend will leave you- trust me, that's a good thing",
+        "Subject's father might actually come back\nJK!",
+        "Subject IS the pirate king",
+        "Scientists will study Subject's vast intellect",
+        "Nah buddy they get no fortunes. Their life sucks",
+        "The weird kid will finally leave Subject alone!",
+        "The weird kid will make Subject a little mechanical pencil launcher, which is... cool, I guess.",
+        "Subject's life will be cupcakes and rainbows and unicorns and stuff XD",
+        "Cabbage. That is their fortune. hehe",
+        "Subject will develope the random ability to hoolahoop with fifteen rocks and a cherry in their mouth",
+        "Subject will start a new tiktok trend",
+        "Subject will be president of the United States",
+        "Subject will overthrow the royal family of England and be the new dictator",
+        "Subject will invent a type of gum that makes it impossible to tell if it's been in somebody else's mouth or not",
+        "If Subject's name is Mckenzie then have a great day. If not, then BAD DAY",
+        "A beautiful, smart, and loving person will be coming into Subject's life",
+        "A funny coincidence will make Subject's day",
+        "A fresh start will put Subject on their way",
+        "A golden egg of opportunity falls into Subject's lap this month",
+        "The fortunes of a fortune cookie don't actually apply unless you eat the cookie.\nThat's right, I see you reading the fortunes and throwing out the rest.",
+        "A lifetime of happiness lies ahead of Subject",
+        "A light heart carries Subject through all the hard times",
+        "A new outlook brightens Subject's image and brings new friends",
+        "A new perspective will come with the new year",
+        "A pleasant surprise is waiting for Subject",
+        "A truly rich life contains love and art in abundance",
+        "All the effort Subject is making will ultimately pay off",
+        "All the troubles Subject has will pass away very quickly",
+        "All will go well with Subject's new project",
+        "Subject will fall for Makenzie",
+        "If Subject puts up with small annoyances, they will gain great results"
+        
+        ]
+    let i = Math.floor(Math.random() * result.length);
+    let r = result[i];
+    return "\n\n" + r;
+}
+
+
+
+function askWhy(){
+    const result = [
+        "Because I said so",
+        "Gee, I don't",
+        "If I knew I would tell you",
+        "Because you didn't do your homework when you were supposed to that one time",
+        "That's just the way it has to be",
+        "That's just how the cookie crumbles",
+        "UHHHHH\nI DON'T KNOW YOUR STRESSING ME OUT",
+        "That is a question you must ask yourself",
+        "Because you broke a promise",
+        "Because you are afraid of big numbers",
+        "Because you need more outside time",
+        "Because if not then you will end up like your dad",
+        "Because if not then you will be alone with all your secrets and regrets",
+        "Because you are not him",
+        "Cause I can't see forgiveness and you can't see the crime",
+        "That's a question for another day",
+        "You're just built different",
+        "cuz I have the Super Ultra HD 5G Spectrum Internet Samsung Galaxy Pro IPhone Max and you dont",
+        "I don't know I'm just a cookie",
+        "Because you didn't say sorry",
+        "Because life is like a box of chocolates. I forget the rest",
+        "Ten thousand bees",
+        "Because Cabbage said so",
+        "Because Cabbage",
+        "because you're you",
+        "That's what happens when you get caught lacking"
+        ]
+        
+    let i = Math.floor(Math.random() * result.length);
+    let r = result[i];
+    return "\n\n" + r;
+}
+
+
+function eitherOr(question){
+    
+    const result = Math.floor(Math.random()*10)+1;
+    if(result < 9){
+        var a = question.slice(question.indexOf(":")+1,);
+        var newQuestion = a.split(" or ");
+        var i = Math.floor(Math.random() * newQuestion.length);
+        var r = "\n\n" + newQuestion[i].trim();
+        return r;
+        
+    }else if(result == 9){
+        return "\n\nTrying to remember how to make up my mind";
+    }else if(result == 10){
+        return "\n\nIf you can't decide between two things, do both";
+    }
+}
+
+
+
+function vent(){
+    const result = [
+        "Crazy",
+        "That's crazy",
+        "My flabbers are ghasted",
+        "In my opinion that's dumb",
+        "Since when?",
+        "Bad",
+        "GOOOOOD BOOOY",
+        "Dang",
+        "Tell it to the judge",
+        "Ain't no way",
+        "I don't believe you",
+        "There is literally no way",
+        "Liar",
+        "Something is off about that",
+        "I don't know...",
+        "Sounds fishy",
+        "That's cool",
+        "You're adopted",
+        "Cool, cool. That's cool. Let me just ask one question\n\n\tAm I supposed to care?",
+        "As long as you're happy",
+        "That's great!",
+        "I hope you're doing well",
+        "Is that a good thing?",
+        "Well, well, well",
+        "Okay. Just don't do anything I wouldn't do",
+        "Nice",
+        "Nice!",
+        "Ten thousand bees",
+        "Real",
+        "Relatable",
+        "It will probably go away soon",
+        "Is this what your father would have wanted?",
+        "ts pmo",
+        "What...? That's so sad...",
+        "Awwwww",
+        "Just think about Cabbage and it will all be better",
+        "Eat your green vegetables",
+        "Fr",
+        "I KNOW RIGHT??",
+        "Ugh fr",
+        "Can you please tell this to someone else? I don't feel like this rn",
+        "In my opinion, it's deserved",
+        "Make it make sense",
+        "Why?",
+        "My honest reaction:",
+        "Ten years from now, nobody will give a crap. I hope that makes you feel better. If not, I am sorry",
+        "Hey! That's not very nice",
+        "Go to the gym",
+        "Eat more chicken",
+        "CHICKEN JOCKEY",
+        "Okay buddy",
+        "Wild",
+        "Is this for a grade?",
+        "Now THATS rizz!",
+        "Not to be rude but that's kind of dumb",
+        "Calm down. It's not that deep.",
+        "Is that a good thing?",
+        "What do you mean by that",
+        "This news makes me feel sad",
+        "I'm glad to hear that!",
+        "Rubba dub-dub, that's some wild stuff right there bub",
+        "My man!",
+        "That's nice dear",
+        "I don't know what to say, bruh. Do I look like ReactBot to you?",
+        "zoo wee mama",
+        "relatable",
+        "HA",
+        "That's what she said",
+        "pause",
+        "Whoa there bro",
+        "That's so tuff",
+        "ok",
+        "I agree",
+        "W",
+        "Idiot.",
+        "Smart",
+        "I like that",
+        "We gather here today to celebrate the size of this W",
+        "Yoooo same",
+        "Me to bro, me too",
+        "same",
+        "Me too",
+        
+        ]
+    let i = Math.floor(Math.random() * result.length);
+    let r = result[i];
+    return "\n\n" + r.trim();
+}
+
+
 //}else if(question === "How are you doing?"){
 //    println(HRU());
 //.toLowerCase().includes("How") && question.includes("are") && question.includes("you")
@@ -975,11 +1334,11 @@ function activate(){
 
     if(question.toLowerCase().includes("when") && question.toLowerCase().includes("die")){
         document.getElementById("ball").innerHTML = "Subject will die on " + death()+ " " + ddate();
-    }else if(question === "Cabbage"){
+    }else if(question.toLowerCase() === "cabbage"){
         document.getElementById("ball").innerHTML = "I love Jolie!"; // I love Jolie
     }else if(question.toLowerCase().includes("how are you")){
         document.getElementById("ball").innerHTML = HRU();
-    }else if(question.toLowerCase === "do you hate me?"){
+    }else if(question.toLowerCase() === "do you hate me?"){
         document.getElementById("ball").innerHTML = hate();
     }else if(question.toLowerCase().includes("who") && question.toLowerCase().includes("marry")){
         document.getElementById("ball").innerHTML = marriage1();
@@ -987,19 +1346,33 @@ function activate(){
         document.getElementById("ball").innerHTML = akinator();
     }else if(question.toLowerCase().includes("when will") && question.toLowerCase().includes("father")){
         document.getElementById("ball").innerHTML = "Your father will come back on " + father() + " " + fdate();
-    }else if(question === "Give me a pick up line"){
+    }else if(question.toLowerCase() === "give me a pick up line"){
         document.getElementById("ball").innerHTML = PUL();
-    }else if(question === "Do you have any good pick up lines?"){
+    }else if(question.toLowerCase() === "do you have any good pick up lines?"){
         document.getElementById("ball").innerHTML = PUL();
-    }else if(question === "I need a pick up line"){
+    }else if(question.toLowerCase() === "i need a pick up line"){
         document.getElementById("ball").innerHTML = PUL();
     }else if(question.toLowerCase().includes("how long")){ //thats what she said
         document.getElementById("ball").innerHTML = time();
     }else if(question.toLowerCase().includes("how") && question.toLowerCase().includes("die")){
         document.getElementById("ball").innerHTML = death2();
+    }else if(question.toLowerCase().includes("why")){
+        document.getElementById("ball").innerHTML = askWhy();
+    }else if(question.toLowerCase().includes("quote")){
+        document.getElementById("ball").innerHTML = quote();
+    }else if(question.toLowerCase().includes("fortune")){
+        if(question.toLowerCase().includes(" i ") || question.toLowerCase().includes("my")){
+            document.getElementById("ball").innerHTML = fortune1();
+        }else{
+            document.getElementById("ball").innerHTML = fortune2();
+        }
+    }else if(question.toLowerCase().includes(":") && question.toLowerCase().includes(" or ")){
+        document.getElementById("ball").innerHTML = eitherOr(question);
     }else if(question.trim() === ""){
         document.getElementById("ball").innerHTML = "You didn't ask anything";
-    }else{
+    }else if(question.includes("?")){
         document.getElementById("ball").innerHTML = Magic8Ball();
+    }else{
+        document.getElementById("ball").innerHTML = vent();
     }
 }

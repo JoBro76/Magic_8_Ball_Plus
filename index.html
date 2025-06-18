@@ -29,10 +29,10 @@
 
 
 
-    <h1> Magic 8 Ball Plus</h1>
-    <p> Ask a question and click the button to get an answer </p>
+    <h1 class="otherText"> Magic 8 Ball Plus</h1>
+    <p class="otherText"> Ask a question and click the button to get an answer </p>
     
-    <div style="display: flex;">
+    <div style="display: flex;" id="container">
         <form id="myform" style="flex: 1;">
             <div style ="display: flex;">
                 <div class="side1">
@@ -43,13 +43,14 @@
             <button type="reset" onclick="activate()">Submit</button>
             <br>
             <br>
-            <p id="yq">Your question: </p>
+            <p class="otherText" id="yq">Your question: </p>
             <p id="ball"> </p>
         </form>
     
-        <div style="flex: 1; padding-right: 80px;" class="side2" id="instructions">
-            <p><b>You can ask the Magic 8 Ball the following things:
-                <br>
+        <div style="flex: 1; padding-right: 80px;" class="side2">
+            
+            <p class="ins" id="instructionsTitle"><b><u>You can ask the Magic 8 Ball the following things:</u></b></p>
+            <p class="ins" id="instructions"><b><br>
                 <br>
                 -When you or someone else will die
                 <br>
@@ -72,8 +73,7 @@
                 -If the Magic 8 Ball hates you (ask "Do you hate me?"). I'm not sure why you'd want to know this though.
                 <br>
                 <br>
-                -you can ask it for an inspirational quote (
-                just include the word "quote" in your question)
+                -you can ask it for an inspirational quote (just include the word "quote" in your question)
                 <br>
                 <br>
                 -You can ask it to give you or a friend a fortune (just include the word "fortune" in your question)
@@ -86,7 +86,7 @@
                 your options separating them with the word "or".
                 <br>
                 <br>
-                Ex: <i>Which band is better: Linkin Park or Imagine Dragons</i>
+                Ex: <i>Which band is better: Linkin Park or Twenty One Pilots</i>
                 <br>
                 Ex: <i>Who is funnier?: Luke or Brandon or Jim or Nate</i>
                 <br>
@@ -98,6 +98,7 @@
             </p>
         </div>            
     </div>
+
 
 </body>
 </html>

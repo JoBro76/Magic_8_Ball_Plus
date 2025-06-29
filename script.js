@@ -1,6 +1,6 @@
 
 
-function death(){
+function xdate(){
     var mnum = 0;
     var mnum = Math.floor(Math.random()*12)+1;
     if(mnum == 1){
@@ -33,7 +33,7 @@ function death(){
 
     
     
-function ddate(){
+function ydate(){
 
     var mnum = 0;
     var mnum = Math.floor(Math.random()*12)+1; 
@@ -291,7 +291,7 @@ function time(){
 
 function hate(){
     
-    let h8 = Math.floor(Math.random()*5)+1;
+    var h8 = Math.floor(Math.random()*5)+1;
     if(h8 == 1){
         return  "I mean yeah, kinda";
     }else if(h8 == 2){
@@ -309,7 +309,7 @@ function hate(){
 
 function marriage1(){
     
-    let marry1 = Math.floor(Math.random()*22)+1;
+    let marry1 = Math.floor(Math.random()*41)+1;
     if(marry1 == 1){
         return  "Ryan Reynolds";
     }else if(marry1 == 2){
@@ -354,6 +354,44 @@ function marriage1(){
         return  "Marry? You? HAHAHAHAHAHAHA";
     }else if(marry1 == 22){
         return  'Your "gay" best friend';
+    }else if(marry1 == 23){
+        return "Your celebrity crush";
+    }else if(marry1 == 24){
+        return "Your girlfriend's dad";
+    }else if(marry1 == 25){
+        return "A beer";
+    }else if(marry1 == 26){
+        return "A bee. Yes. A bee.";
+    }else if(marry1 == 27){
+        return "A bot on Poly AI";
+    }else if(marry1 == 28){
+        return "A short cute furry femboy who purrs when you pet their head";
+    }else if(marry1 == 29){
+        return "A coworker";
+    }else if(marry1 == 30){
+        return "A random person you met on the street";
+    }else if(marry1 == 31){
+        return "A pen pal";
+    }else if(marry1 == 32){
+        return "You're too afraid of the opposite gender to even think about marriage";
+    }else if(marry1 == 33){
+        return "A Chinese sweat shop worker";
+    }else if(marry1 == 34){
+        return "An Asian";
+    }else if(marry1 == 35){
+        return "A british guy with a monicle and a top hat";
+    }else if(marry1 == 36){
+        return "Tyrone";
+    }else if(marry1 == 37){
+        return "Someone you met on Tinder";
+    }else if(marry1 == 38){
+        return "Your discord kitten";
+    }else if(marry1 == 39){
+        return "Trumpy with the big dumpy";
+    }else if(marry1 == 40){
+        return "Obamna";
+    }else if(marry1 == 41){
+        return "A gamer";
     }
 }
 
@@ -397,61 +435,13 @@ function akinator(){
     }else if(result == 17){
         return "I bet you that guy wears panties. That lousy good for nothing girlfriend stealer.";
     }else if(result == 18){
-        return 'You know what? Let me tell you about how I feel about everyone I know.\n\nAkinator, first of all, is a massive jerk and he stole my girlfriend. It\'s not just that, though. He\'s overall a trashy person. He thinks he\'s him. I hate Akinator more than mere words can express and I hate his stupid face and dfgbhjmukmbgfhjufds\n\nThe python Magic 8 Ball is my big brother. He\'s retarted. All he says is "It is certain". Like is that all you say????\n\nI prefer to stay away from Chat GPT. He always looks like he\'s planning something\n\nAkinator sucks\n\nMy best friend is a calculator. He just talks through 1s and 0s\n\nMy girlfriend, or exgirlfriend, is the Fortune Cookie Plus. I miss her so much\n\nI hate Akinator\n\nI hate Akinator\n\nI hate Akinator\n\nI hate Akinator';
+        return 'You know what? Let me tell you about how I feel about everyone I know.\n\nAkinator, first of all, is a massive jerk and he stole my girlfriend. It\'s not just that, though. He\'s overall a trashy person. He thinks he\'s him. I hate Akinator more than mere words can express and I hate his stupid face and dfgbhjmukmbgfhjufds\n\nThe python Magic 8 Ball is my big brother. He\'s retarted. All he says is "It is certain". Like is that all you say????\nI prefer to stay away from Chat GPT. He always looks like he\'s planning something\nAkinator sucks\nMy best friend is a calculator. He just talks through 1s and 0s\nMy girlfriend, or exgirlfriend, is the Fortune Cookie Plus. I miss her so much\nI hate Akinator\nI hate Akinator\nI hate Akinator\nI hate Akinator';
     }else if(result == 19){
         return "He is trash";
     }else if(result == 20){
         return "I really hate him, he is always in my way.\nI'm losing patience. When is he going to be shut down??\nI want to throw him out just like a broken TV.\nIf he comes back once more it shall be painful he'll see.\nI hope he dies in a fire\nHope he gets stopped in the heart, hope he shuts down and expires\nHope he gets taken apart, hope this is what he desires";
     }
 }
-
-function father(){
-    
-    var mnum = 0;
-    var mnum = Math.floor(Math.random()*12)+1;
-    if(mnum == 1){
-        return  "January";
-    }else if(mnum ==2){
-        return  "Febuary";
-    }else if(mnum ==3){
-        return  "March";
-    }else if(mnum ==4){
-        return  "April";
-    }else if(mnum ==5){
-        return  "May";
-    }else if(mnum ==6){
-        return  "June";
-    }else if(mnum ==7){
-        return  "July";
-    }else if(mnum ==8){
-        return  "August";
-    }else if(mnum ==9){
-        return  "September";
-    }else if(mnum ==10){
-        return  "October";
-    }else if(mnum ==11){
-        return  "November";
-    }else if(mnum ==12){
-        return  "December";
-    }
-}
-
-
-
-
-function fdate(){
-    var mnum = 0;
-    if(mnum == 2){
-    }else if(mnum == 4 || mnum == 6 || mnum == 9 || mnum == 11){
-        var date = Math.floor(Math.random()*30)+1;
-    }else{
-        var date = Math.floor(Math.random()*31)+1;
-    }
-    var year = 0;
-    var year = Math.floor(Math.random()*2100 - 2026 + 1)+2026;
-    return  `${date}, ${year}`;
-}
-
 
 
 
@@ -752,7 +742,7 @@ function Magic8Ball(){
     } else if(result == 92){
         return  "\n\nThat's what she said";
     } else if(result == 93){
-        return  "\n\nTo be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them. To die—to sleep,\nNo more; and by a sleep to say we end\nThe heart-ache and the thousand natural shocks\nThat flesh is";
+        return  "\n\nTo be, or not to be, that is the question:Whether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them. To die—to sleep,\nNo more; and by a sleep to say we end\nThe heart-ache and the thousand natural shocks\nThat flesh is heir to: 'tis a consummation\nDevoutly to be wish'd. To die, to sleep;\nTo sleep, perchance to dream—ay, there's the rub: \nFor in that sleep of death what dreams may come,\nWhen we have shuffled off this mortal coil,\nMust give us pause—there's the respect\nThat makes calamity of so long life.\nFor who would bear the whips and scorns of time, Th'oppressor's wrong, the proud man's contumely,\nThe pangs of dispriz'd love, the law's delay,\nThe insolence of office, and the spurns\nThat patient merit of th'unworthy takes,\nWhen he himself might his quietus make \nWith a bare bodkin? Who would fardels bear,\nTo grunt and sweat under a weary life,\nBut that the dread of something after death,\nThe undiscovere'd country, from whose bourn\nNo traveller returns, puzzles the will,/nAnd makes us rather bear those ills we have\nThan fly to others that we know not of?\nThus conscience doth make cowards of us all,\nAnd thus the native hue of resolution\nIs sicklied o'er with the pale cast of thought, /nAnd enterprises of great pith and moment\nWith this regard their currents turn awry\nAnd lose the name of action.";
     }else if(result == 94){
         return "\n\nIf I had a PENNY for every time someone asked me a dumb question, I'd be richer than Elon";
     }else if(result == 95){
@@ -841,7 +831,7 @@ function HRU(){
     }else if(hru == 35){
         return  "I just want to end it all...";
     }else if(hru == 36){
-        return  "I want to play video games but I feel like I am going to hate myself later if I am not being productive 24/7. I just want to be like Jolie.";
+        return  "I am feeling very plastic bag right now";
     }else if(hru == 37){
         return  "Never better!";
     }else if(hru == 37){
@@ -849,7 +839,7 @@ function HRU(){
     }else if(hru == 38){
         return  "I'm excited";
     }else if(hru == 39){
-        return  "I want Cabbage";
+        return  "I'm doing great! I just unlocked the secret ending in DTI!";
     }else if(hru == 40){
         return  "According to Einstein's theory of relativity, an object in motion stays in motion. Does that answer your question?";
     }else if(hru == 41){
@@ -959,7 +949,7 @@ function quote(){
         "Be yourself. Everyone else is already taken",
         "Life is hard but your thick skull is harder", 
         "Life is short but you're shorter",
-        "Life is short but you're attention span is shorter",
+        "Life is short but you're attention  is shorter",
         "Set yourself up to experience what you love",
         "Turn your life upside down. On purpose",
         "It will be okay",
@@ -973,7 +963,9 @@ function quote(){
         '"When life gives you lemons, don\'t make lemonade" -Cave Johnson',
         "The world is your sandbox",
         "If you can't decide between two things, do both",
-        "With great power comes great responsibility"
+        "With great power comes great responsibility",
+        "Times whe-when um times when it's uhh umm when uhh you know like uhh ti-times err uh yeah",
+        "You are a unique individual, just like everyone else"
         ];
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1052,7 +1044,9 @@ function fortune1(){
         "All the troubles you have will pass away very quickly",
         "All will go well with your new project",
         "You will fall for Makenzie",
-        "If you put up with small annoyances, you will gain great results"
+        "If you put up with small annoyances, you will gain great results",
+        "You will become president of the world",
+        "You are so stupid that not even the most advanced AI can replicate your personality"
         
         ]
     let i = Math.floor(Math.random() * result.length);
@@ -1100,7 +1094,7 @@ function fortune2(){
         "Subject's crush will like them back",
         "Subject will be the next Einstein",
         "Subject will be a pro basketball player and make LeBron jealous",
-        "Subject's girlfriend/boyfriend will leave you- trust me, that's a good thing",
+        "Subject's girlfriend/boyfriend will leave them- trust me, that's a good thing",
         "Subject's father might actually come back\nJK!",
         "Subject IS the pirate king",
         "Scientists will study Subject's vast intellect",
@@ -1130,7 +1124,9 @@ function fortune2(){
         "All the troubles Subject has will pass away very quickly",
         "All will go well with Subject's new project",
         "Subject will fall for Makenzie",
-        "If Subject puts up with small annoyances, they will gain great results"
+        "If Subject puts up with small annoyances, they will gain great results",
+        "Subject will become president of the world",
+        "Subject is so stupid that not even the most advanced AI can replicate their personality"
         
         ]
     let i = Math.floor(Math.random() * result.length);
@@ -1143,7 +1139,7 @@ function fortune2(){
 function askWhy(){
     const result = [
         "Because I said so",
-        "Gee, I don't",
+        "Gee, I don't know",
         "If I knew I would tell you",
         "Because you didn't do your homework when you were supposed to that one time",
         "That's just the way it has to be",
@@ -1160,14 +1156,16 @@ function askWhy(){
         "That's a question for another day",
         "You're just built different",
         "cuz I have the Super Ultra HD 5G Spectrum Internet Samsung Galaxy Pro IPhone Max and you dont",
-        "I don't know I'm just a cookie",
         "Because you didn't say sorry",
         "Because life is like a box of chocolates. I forget the rest",
         "Ten thousand bees",
-        "Because Cabbage said so",
         "Because Cabbage",
         "because you're you",
-        "That's what happens when you get caught lacking"
+        "That's what happens when you get caught lacking",
+        "Because your music taste sucks",
+        "Because someone stepped on an ant in the Netherlands",
+        "Because you're special",
+        "Because "
         ]
         
     let i = Math.floor(Math.random() * result.length);
@@ -1224,7 +1222,7 @@ function vent(){
         "Okay. Just don't do anything I wouldn't do",
         "Nice",
         "Nice!",
-        "Ten thousand bees",
+        "Ten Thousand Bees",
         "Real",
         "Relatable",
         "It will probably go away soon",
@@ -1232,7 +1230,6 @@ function vent(){
         "ts pmo",
         "What...? That's so sad...",
         "Awwwww",
-        "Just think about Cabbage and it will all be better",
         "Eat your green vegetables",
         "Fr",
         "I KNOW RIGHT??",
@@ -1279,7 +1276,16 @@ function vent(){
         "Me to bro, me too",
         "same",
         "Me too",
-        
+        "Boooring",
+        "Lame",
+        "I don't care",
+        "That's big brain",
+        "That's so hot",
+        "That's so cool",
+        "Who asked?",
+        "Currently searching the internet for who asked... this may take a while...",
+        "I gotta respect this",
+        "That reminds me of her... everything does"
         ]
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1287,43 +1293,22 @@ function vent(){
 }
 
 
-//}else if(question === "How are you doing?"){
-//    println(HRU());
-//.toLowerCase().includes("How") && question.includes("are") && question.includes("you")
-//return ;
 
-//On my webpage, when the user can type in a question for the Magic 8 Ball.
-//  When the user presses the button, the funtion "activate" is called.
-//  The system displays a magic 8 ball response based on the user's question.
-//  Most questions will make the system call another function that displays the result on the webpage.
-//  The only response that isn't displayed by calling another funtion is "I love Jolie" when the user types in "Cabbage".
-//  The problem is that that one is the only one that works.
-//  Anytime a function is called that is supposed to display the response, instead of showing the response, it shows the word "undefined".
-//  Can you please offer some insight as to why this problem might be happening?
-
-
-
-/**
- * Activates the Magic 8 Ball response based on the user's question.
- * Retrieves the question from the input element with id "text" and updates the
- * element with id "ball" with the appropriate response.
- * 
- * Possible questions and responses:
- * - "When will I die?": Calls death() and ddate() functions to generate a response.
- * - "Cabbage": Responds with "I love Jolie!".
- * - "": Responds with null.
- * - "How are you?": Calls HRU() function.
- * - "Do you hate me?": Calls hate() function.
- * - Questions containing "who", "marry", and "long": Calls marriage1() function.
- * - Questions containing "How do you feel about Akinator": Calls Akinator() function.
- * - Questions containing "when will" and "father": Responds with a generated date using father() and fdate() functions.
- * - "Give me a pick up line", "Do you have any good pick up lines?", "I need a pick up line": Calls PUL() function.
- * - Questions containing "how long": Generates a random number and returns it with a time.
- * - Questions containing "how" and "die": Calls death2() function.
- * - Any other question: Calls Magic8Ball() function to generate a response.
- */
-
-
+//IDEAS
+/*-Lucky number (random number)
+-compliment #
+-jokes
+-top ten list or ranking
+-ask for a song #
+-Whats the date?
+-knock knock jokes
+-how to get a girlfriend/boyfriend #
+-what is love? #
+-what is the meaning of life? #
+-how questions #
+-Misfortune
+-Random fact #
+/*/
 
 function activate(){
     
@@ -1332,10 +1317,12 @@ function activate(){
 
     document.getElementById("yq").innerHTML = "Your question: " + question;
 
-    if(question.toLowerCase().includes("when") && question.toLowerCase().includes("die")){
-        document.getElementById("ball").innerHTML = "Subject will die on " + death()+ " " + ddate();
+    if(question.toLowerCase().includes("when will ")){
+        document.getElementById("ball").innerHTML = xdate() + " " + ydate();
     }else if(question.toLowerCase() === "cabbage"){
         document.getElementById("ball").innerHTML = "I love Jolie!"; // I love Jolie
+    }else if(question.toLowerCase().includes("how many bees")){
+        document.getElementById("ball").innerHTML = "Ten Thousand Bees";
     }else if(question.toLowerCase().includes("how are you")){
         document.getElementById("ball").innerHTML = HRU();
     }else if(question.toLowerCase() === "do you hate me?"){
@@ -1344,8 +1331,6 @@ function activate(){
         document.getElementById("ball").innerHTML = marriage1();
     }else if(question.toLowerCase().includes("akinator")){
         document.getElementById("ball").innerHTML = akinator();
-    }else if(question.toLowerCase().includes("when will") && question.toLowerCase().includes("father")){
-        document.getElementById("ball").innerHTML = "Your father will come back on " + father() + " " + fdate();
     }else if(question.toLowerCase() === "give me a pick up line"){
         document.getElementById("ball").innerHTML = PUL();
     }else if(question.toLowerCase() === "do you have any good pick up lines?"){
@@ -1370,6 +1355,9 @@ function activate(){
         document.getElementById("ball").innerHTML = eitherOr(question);
     }else if(question.trim() === ""){
         document.getElementById("ball").innerHTML = "You didn't ask anything";
+
+
+
     }else if(question.includes("?")){
         document.getElementById("ball").innerHTML = Magic8Ball();
     }else{

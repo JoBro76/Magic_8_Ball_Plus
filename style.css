@@ -15,13 +15,12 @@ header {
     font-family: Serif;
     font-style: italic;
     font-weight: bold;
-    margin-left: 10%;
     white-space: nowrap;
 }
 
 #logoPic {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-left: 40px;
     margin-right: 20px;
 }
@@ -169,19 +168,18 @@ button[type="reset"]:focus {
 
     .title {
         font-size: 24px;
-        margin-left: 5%;
+        margin-left: -10px;
     }
 
     #logoPic {
-        width: 40px;
-        height: 40px;
+        width: 70px;
+        height: 70px;
         margin-left: 20px;
-        margin-right: 10px;
     }
 
     header {
         height: 80px;
-        padding: 10px;
+        padding: 0px;
     }
 
     form {

@@ -223,3 +223,166 @@ button[type="reset"]:focus {
     }
 
 }
+
+@media only screen and (max-width: 896px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #myform {
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        
+    }
+
+    #instructions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ins {
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-left: -10px;
+    }
+
+    #logoPic {
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    header {
+        height: 80px;
+        padding: 0px;
+    }
+
+    form {
+        margin-left: 10%;
+    }
+    textarea {
+        width: 90%;
+        height: 80px;
+        z-index: 4;
+    }
+    button {
+        width: 90%;
+        margin-bottom: 10px;
+        
+    }
+    h1 {
+        font-size: 24px;
+        margin-left: 10%;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 10%;
+    }
+    #instructions {
+        font-size: 16px;
+        max-width: 100%;
+        padding-top: 20px;
+        color:#8716ad
+    }
+    #myform {
+        flex-direction: column;
+        align-items: center;
+    }
+    #yq, #ball {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    button[type="reset"] {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #myform {
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        
+    }
+
+    #instructions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ins {
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-left: -10px;
+    }
+
+    #logoPic {
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    header {
+        height: 80px;
+        padding: 0px;
+    }
+
+    form {
+        margin-left: 10%;
+    }
+    textarea {
+        width: 90%;
+        height: 80px;
+        z-index: 4;
+    }
+    button {
+        width: 90%;
+        margin-bottom: 10px;
+        
+    }
+    h1 {
+        font-size: 24px;
+        margin-left: 10%;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 10%;
+    }
+    #instructions {
+        font-size: 16px;
+        max-width: 100%;
+        padding-top: 20px;
+        color:#8716ad
+    }
+    #myform {
+        flex-direction: column;
+        align-items: center;
+    }
+    #yq, #ball {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    button[type="reset"] {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}

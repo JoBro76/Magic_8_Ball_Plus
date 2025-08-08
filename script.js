@@ -325,7 +325,7 @@ function marriage1(){
     }else if(marry1 == 7){
         return  "Spoiler Alert- it's not your current crush";
     }else if(marry1 == 8){
-        return  "Cabbage";
+        return  "An alien";
     }else if(marry1 == 9){
         return  "The lunch lady";
     }else if(marry1 == 10){
@@ -1157,8 +1157,15 @@ function fortune2(){
         "Subject will fall for Makenzie",
         "If Subject puts up with small annoyances, they will gain great results",
         "Subject will become president of the world",
-        "Subject is so stupid that not even the most advanced AI can replicate their personality"
-        
+        "Subject is so stupid that not even the most advanced AI can replicate their personality",
+        "Subject will receive unexpected opportunities and seize them",
+        "Subject's gratitude will become their biggest ally this week",
+        "Subject's career plans look bright",
+        "Don't miss out on your chance to win big! Visit your local casino today! Remember, 90% of players quit before winning the jackpot!",
+        "Really great people make Subject feel that they too can become great",
+        "Subject's sense of humor will get them through difficult times",
+        "Subject is surrounded by unlimited opportunities",
+        "Subject displays the wonderful traits of geniusness and courteousness"
         ]
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1190,7 +1197,7 @@ function askWhy(){
         "Because you didn't say sorry",
         "Because life is like a box of chocolates. I forget the rest",
         "Ten thousand bees",
-        "Because Cabbage",
+        "Cuz those aren't real Jordans",
         "because you're you",
         "That's what happens when you get caught lacking",
         "Because your music taste sucks",
@@ -1417,4 +1424,5 @@ function activate(){
         document.getElementById("ball").innerHTML = vent();
     }
 }
+
 

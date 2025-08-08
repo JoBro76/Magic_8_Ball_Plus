@@ -309,7 +309,7 @@ function hate(){
 
 function marriage1(){
     
-    let marry1 = Math.floor(Math.random()*41)+1;
+    let marry1 = Math.floor(Math.random()*44)+1;
     if(marry1 == 1){
         return  "Ryan Reynolds";
     }else if(marry1 == 2){
@@ -392,7 +392,12 @@ function marriage1(){
         return "Obamna";
     }else if(marry1 == 41){
         return "A gamer";
-    }
+    }else if(marry1 == 42){
+        return "Your therapist. And then you'll get to come talk to them about your divorce with them (they'll charge extra)";
+    }else if(marry1 == 43){
+        return "Andrew Tate";
+    }else if(marry1 == 44){
+        return "Sir Andrew Demarcus Barthalomew Cornilious Daquavious Simon Bananasteak III";
 }
 
 
@@ -556,7 +561,7 @@ function PUL(){
 
 
 function Magic8Ball(){ 
-    let result = Math.floor(Math.random()*96)+1;
+    let result = Math.floor(Math.random()*103)+1;
     if(result == 1){
         return  "\n\nIt is decidedly so";
     } else if(result == 2){
@@ -749,13 +754,27 @@ function Magic8Ball(){
         return "\n\nI believe this is a question that only you can answer";
     }else if(result == 96){
         return "\n\nI believe this is a certified what the sigma moment";
+    }else if(result == 97){
+        return "\n\nNot on my watch!";
+    }else if(result == 98){
+        return "\n\nSimon says yes";
+    }else if(result == 99){
+        return "\n\nSimon says no";
+    }else if(result == 100){
+        return "\n\nWell... one time, a watermelon stood up and started walking. It tripped and fell into the nest of a rare crab-cat eagle doing math. TLDR, you're answer is yes";
+    }else if(result == 101){
+        return "\n\nThe Elders have gathered and agreed that the answer is no";
+    }else if(result == 102){
+        return "\n\nYes and no. It's complicated.";
+    }else if(result == 103){
+        return "Almost certainly";
     }
 }
 
 
 function HRU(){
     
-    let hru = Math.floor(Math.random()*75)+1;
+    let hru = Math.floor(Math.random()*76)+1;
     if(hru == 1){
         return  "I'm doing great! Thanks for asking!";
     }else if(hru == 2){
@@ -965,7 +984,12 @@ function quote(){
         "If you can't decide between two things, do both",
         "With great power comes great responsibility",
         "Times whe-when um times when it's uhh umm when uhh you know like uhh ti-times err uh yeah",
-        "You are a unique individual, just like everyone else"
+        "You are a unique individual, just like everyone else",
+        "The wise learn more from fools than fools learn from the wise",
+        "Do not settle for any less than the best",
+        "Seek guidance where you can this week",
+        "Surround yourself with good people"
+        
         ];
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1027,7 +1051,7 @@ function fortune1(){
         "You will start a new tiktok trend",
         "You will be president of the United States",
         "You will overthrow the royal family of England and be the new dictator",
-        "You will invent a tyoe of gum that makes it impossible to tell if it's been in somebody else's mouth or not",
+        "You will invent a type of gum that makes it impossible to tell if it's been in somebody else's mouth or not",
         "If your name is Mckenzie then have a great day. If not, then BAD DAY",
         "A beautiful, smart, and loving person will be coming into your life",
         "A funny coincidence will make your day",
@@ -1046,8 +1070,15 @@ function fortune1(){
         "You will fall for Makenzie",
         "If you put up with small annoyances, you will gain great results",
         "You will become president of the world",
-        "You are so stupid that not even the most advanced AI can replicate your personality"
-        
+        "You are so stupid that not even the most advanced AI can replicate your personality",
+        "You'll receive unexpected opportunities and seize them",
+        "Your gratitude will become your biggest ally this week",
+        "Your career plans look bright",
+        "Don't miss out on your chance to win big! Visit your local casino today! Remember, 90% of players quit before winning the jackpot!",
+        "Really great people make you feel that you too can become great",
+        "Your sense of humor will get you through difficult times",
+        "You are surrounded by unlimited opportunities",
+        "You display the wonderful traits of geniusness and courteousness"
         ]
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1165,7 +1196,9 @@ function askWhy(){
         "Because your music taste sucks",
         "Because someone stepped on an ant in the Netherlands",
         "Because you're special",
-        "Because "
+        "Because you're on the naughty list",
+        "Because you picked up MY coin off the ground that one time thinking nobody would notice. Thats called stealing, Mr.",
+        "Because the FBI agent made sure of it"
         ]
         
     let i = Math.floor(Math.random() * result.length);
@@ -1285,7 +1318,27 @@ function vent(){
         "Who asked?",
         "Currently searching the internet for who asked... this may take a while...",
         "I gotta respect this",
-        "That reminds me of her... everything does"
+        "That reminds me of her... everything does",
+        "Okay so are we just gonna act like you don't have the worst haircut in the seven seas?",
+        "Wow I'm so proud of you",
+        "[insert snarky sarcastic side comment here]",
+        "How lovely",
+        "Yeah you're getting cancelled for that buddy",
+        "Sounds like a skill issue",
+        "Sounds like you need a therapist",
+        "Get a life",
+        "I know where you live",
+        "Can it, turd bag!",
+        "Bacon!",
+        "WOW! Now THIS is some next level stuff right here!",
+        "Tell it to the judge",
+        "That's genuinely hilarious",
+        "Interesting",
+        "HA! Err- I mean, that's awful",
+        "That's my boy!",
+        "Uh, what?",
+        "Am I getting paid for this?",
+        "Hold on, lemme write that down!",
         ]
     let i = Math.floor(Math.random() * result.length);
     let r = result[i];
@@ -1364,3 +1417,4 @@ function activate(){
         document.getElementById("ball").innerHTML = vent();
     }
 }
+

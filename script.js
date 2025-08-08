@@ -774,7 +774,7 @@ function Magic8Ball(){
 
 function HRU(){
     
-    let hru = Math.floor(Math.random()*76)+1;
+    let hru = Math.floor(Math.random()*75)+1;
     if(hru == 1){
         return  "I'm doing great! Thanks for asking!";
     }else if(hru == 2){
@@ -931,8 +931,6 @@ function HRU(){
         return "They're all plotting against me!";
     }else if(hru == 75){
         return "Is it weird to crush on a video game character? Because I kind of got it for GLaDOS";
-    }else if(hru == 76){
-        return "I did the math: my toes are cold, your mouth is warm. Catch up";
     }
 }
 
@@ -1424,5 +1422,6 @@ function activate(){
         document.getElementById("ball").innerHTML = vent();
     }
 }
+
 
 
